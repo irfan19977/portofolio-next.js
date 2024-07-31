@@ -14,6 +14,24 @@ const services = [
   {
     num: '02',
     title: 'Website SIAKAD',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod commodi quam id. Quaerat eveniet dolore veniam vitae modi. Iure, consequuntur!', 
+    href: "https://github.com/irfan19977/School-app"
+  },
+  {
+    num: '03',
+    title: 'Membangun Jaringan RT. RW. Net',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod commodi quam id. Quaerat eveniet dolore veniam vitae modi. Iure, consequuntur!'
+    , href: "https://github.com/irfan19977/School-app"
+  },
+  {
+    num: '04',
+    title: 'Membangun Lab Komputer',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod commodi quam id. Quaerat eveniet dolore veniam vitae modi. Iure, consequuntur!', 
+    href: "https://github.com/irfan19977/School-app"
+  },
+  {
+    num: '05',
+    title: 'Java Service Computer',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod commodi quam id. Quaerat eveniet dolore veniam vitae modi. Iure, consequuntur!'
     , href: "https://github.com/irfan19977/School-app"
   },

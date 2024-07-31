@@ -1,6 +1,6 @@
 "use client";
 
-import {FaHtml5, FaCss3, FaLaravel, FaFigma, FaGithub, FaNetworkWired, FaPhp, FaWordpress, FaCode, FaDatabase} from "react-icons/fa";
+import {FaHtml5, FaCss3, FaLaravel, FaFigma, FaGithub, FaNetworkWired, FaPhp, FaWordpress, FaCode, FaDatabase, FaTools,} from "react-icons/fa";
 
 
 const about = {
@@ -118,6 +118,10 @@ const skills = {
     {
       icon: <FaNetworkWired />,
       name: "Networking",
+    },
+    {
+      icon: <FaTools />,
+      name: "Troubleshooting Hardware & Software",
     },
   ]
 }
