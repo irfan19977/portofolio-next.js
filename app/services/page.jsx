@@ -7,27 +7,15 @@ import { motion } from "framer-motion";
 const services = [
   {
     num: '01',
-    title: 'Web Development',
+    title: 'Website PPDB Sekolah',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod commodi quam id. Quaerat eveniet dolore veniam vitae modi. Iure, consequuntur!',
-    href: ""
+    href: "https://github.com/irfan19977/Tugas-Akhir"
   },
   {
     num: '02',
-    title: 'Web Development',
+    title: 'Website SIAKAD',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod commodi quam id. Quaerat eveniet dolore veniam vitae modi. Iure, consequuntur!'
-    , href: ""
-  },
-  {
-    num: '03',
-    title: 'Web Development',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod commodi quam id. Quaerat eveniet dolore veniam vitae modi. Iure, consequuntur!'
-    , href: ""
-  },
-  {
-    num: '04',
-    title: 'Web Development',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod commodi quam id. Quaerat eveniet dolore veniam vitae modi. Iure, consequuntur!',
-    href: ""
+    , href: "https://github.com/irfan19977/School-app"
   },
 ];
 
