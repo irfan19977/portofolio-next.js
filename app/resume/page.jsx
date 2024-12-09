@@ -4,27 +4,23 @@ import {FaHtml5, FaCss3, FaLaravel, FaFigma, FaGithub, FaNetworkWired, FaPhp, Fa
 
 
 const about = {
-  title: "About me",
-  description: "I am a graduate of STMIK PPKIA Pradnya Paramita Malang with a focus on computer networks and web development. With extensive experience in managing IT projects both independently and as part of a team, I am committed to continually developing my skills. I am ready to contribute effectively in a dynamic team, utilizing my knowledge and passion for technology to drive innovative solutions.",
+  title: "Tentang Saya",
+  description: "Saya seorang yang memiliki latar belakang di bidang Teknologi Informasi, lulusan dari STMIK PPKIA Pradnya Paramita Malang. Saya memiliki pengalaman dalam pengembangan jaringan komputer, instalasi perangkat keras dan lunak, serta pemrograman web, terutama menggunakan Laravel. Selain itu, saya juga tertarik untuk berbagi pengetahuan dan mengajar di bidang IT. Saya selalu berusaha untuk terus belajar dan mengasah keterampilan saya, baik dalam mengembangkan solusi teknologi maupun dalam mengajar dan membimbing orang lain. Saya senang menghadapi tantangan baru dan berusaha memberikan yang terbaik di setiap kesempatan.",
   info: [
     {
-      fieldName: "Name",
-      fieldValue: "Irfan Adi"
-    },
-    {
-      fieldName: "Phone",
-      fieldValue: "(+62) 858 0273 3781"
-    },
-    {
-      fieldName: "Experience",
-      fieldValue: "1 Years"
+      fieldName: "Nama",
+      fieldValue: "Irfan Adi Prastyo"
     },
     {
       fieldName: "Email",
       fieldValue: "Irfanadiprasetyo27@gmail.com"
     },    
     {
-      fieldName: "Nationality",
+      fieldName: "No. Telp",
+      fieldValue: "0858 0273 3781"
+    },
+    {
+      fieldName: "Kebangsaan",
       fieldValue: "Indonesian"
     },
     {
@@ -32,7 +28,7 @@ const about = {
       fieldValue: "Available"
     },
     {
-      fieldName: "Languange",
+      fieldName: "Bahasa",
       fieldValue: "Indonesia"
     },
   ]
@@ -40,12 +36,12 @@ const about = {
 
 const experience = {
   icon: "/assets/resume/badge.svg",
-  title : "My Experience",
-  description: "I have extensive experience in diagnosing and repairing computer issues, managing inventory, and assisting customers with their technical needs.",
+  title : "Pengalaman",
+  description: "Sebagai seseorang yang baru saja menyelesaikan pendidikan D3 di bidang Teknologi Informasi, saya memiliki berbagai pengalaman yang telah membekali saya dengan keterampilan praktis dalam dunia teknologi. Pengalaman saya tidak hanya diperoleh melalui pendidikan formal, tetapi juga melalui kegiatan freelance dan proyek-proyek yang saya jalani sejak masa SMK hingga sekarang. Saya telah bekerja dalam berbagai bidang, mulai dari layanan servis komputer, pengembangan aplikasi web, hingga pengelolaan jaringan.",
   items: [
     {
       company: "CV Surabaya Cell",
-      position: "Sales and Inventory Management Associate",
+      position: "Staf Administrasi Toko",
       duration: "2020-2021"
     },
     {
@@ -58,12 +54,12 @@ const experience = {
 
 const education = {
   icon: "/assets/resume/badge.svg",
-  title : "My Education",
-  description: "I have extensive experience in diagnosing and repairing computer issues, managing inventory, and assisting customers with their technical needs.",
+  title : "Pendidikan",
+  description: "Saya memulai perjalanan pendidikan saya dengan menempuh SMK Teknik Komputer dan Jaringan, di mana saya mendapatkan dasar yang kuat dalam bidang jaringan komputer, instalasi perangkat keras dan lunak, serta pemrograman dasar. Pendidikan ini memberi saya keterampilan praktis yang saya terus kembangkan. Setelah itu, saya melanjutkan studi ke jenjang D3 di STMIK PPKIA Pradnya Paramita Malang, di mana saya lebih mendalami pengembangan perangkat lunak, jaringan komputer, dan pemrograman web. ",
   items: [
     {
       institution: "STMIK PPKIA Pradnya Paramita Malang",
-      major: "Sistem Informasi",
+      major: "D-3 Sistem Informasi",
       duration: "2021-2024"
     },
     {
@@ -135,16 +131,16 @@ const Resume = () => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
-      animate={{ opacity:1, transition: {delay: 2.4, duration: 0.4, ease: "easeIn"},
+      animate={{ opacity:1, transition: {delay: 1, duration: 0.4, ease: "easeIn"},
       }}
       className="min-h-[80vh] flex items-center justify-center py-12 xl:py-0">
         <div className="container mx-auto">
-          <Tabs defaultValue="experience" className="flex flex-col xl:flex-row gap-[60px]">
+          <Tabs defaultValue="about" className="flex flex-col xl:flex-row gap-[60px]">
             <TabsList className="flex flex-col w-full max-w-[380px] mx-auto xl:mx-0 gap-6">
-              <TabsTrigger value="experience">Experience</TabsTrigger>
-              <TabsTrigger value="education">Education</TabsTrigger>
-              <TabsTrigger value="skills">Skills</TabsTrigger>
-              <TabsTrigger value="about">About me</TabsTrigger>
+              <TabsTrigger value="about">Tentang Saya</TabsTrigger>
+              <TabsTrigger value="education">Pendidikan</TabsTrigger>
+              <TabsTrigger value="experience">Pengalaman</TabsTrigger>
+              <TabsTrigger value="skills">Skill</TabsTrigger>
             </TabsList>
 
             {/* CONTENT */}

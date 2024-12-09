@@ -25,9 +25,9 @@ const Home = () => {
           <div className="text-center xl:text-left order-2 xl:order-none">
             <span className="text-xl">Web Developer</span>
             <h1 className="h1 mb-6">
-              Hello I`m <br /> <span className="text-accent">Irfan Adi Prastyo</span>
+             Hallo, saya <br /> <span className="text-accent">Irfan Adi Prastyo</span>
             </h1>
-            <p className="max-w-[500px] mb-9 text-white/80">I enjoy coding, managing computer networks, watching Donghua, and learning new things.</p>
+            <p className="max-w-[500px] mb-9 text-white/80">Saya adalah seseorang yang menyukai dunia IT, saya selalu tertarik untuk mempelajari hal-hal baru seputar teknologi dan mencari solusi kreatif dalam pengembangan sistem.</p>
 
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <Button variant="outline" size="lg" className="uppercase flex items-center gap-2"  onClick={handleDownload}>

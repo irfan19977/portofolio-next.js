@@ -7,34 +7,23 @@ import { motion } from "framer-motion";
 const services = [
   {
     num: '01',
-    title: 'Website PPDB Sekolah',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod commodi quam id. Quaerat eveniet dolore veniam vitae modi. Iure, consequuntur!',
-    href: "https://github.com/irfan19977/Tugas-Akhir"
+    title: 'Joki Tugas Akademik',
+    description: 'Menyediakan bantuan akademik dengan cara yang efisien, mulai dari penulisan laporan, penelitian, hingga tugas praktikum. Saya memastikan pekerjaan diselesaikan dengan kualitas tinggi dan sesuai dengan standar akademik yang berlaku.',
+    href: "#"
   },
   {
     num: '02',
-    title: 'Website SIAKAD',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod commodi quam id. Quaerat eveniet dolore veniam vitae modi. Iure, consequuntur!', 
-    href: "https://github.com/irfan19977/School-app"
+    title: 'Pembuatan Website',
+    description: 'Pengembangan website profesional yang responsif dan user-friendly untuk berbagai keperluan, seperti website perusahaan, portofolio pribadi, dan e-commerce.', 
+    href: "#"
   },
   {
     num: '03',
-    title: 'Membangun Jaringan RT. RW. Net',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod commodi quam id. Quaerat eveniet dolore veniam vitae modi. Iure, consequuntur!'
-    , href: "https://github.com/irfan19977/School-app"
+    title: 'Service Komputer dan Perbaikan Hardware',
+    description: 'Layanan perbaikan dan perawatan komputer yang meliputi perbaikan hardware, optimasi sistem, dan pemeliharaan software. Dengan pengalaman yang mendalam, saya dapat menangani berbagai masalah komputer untuk memastikan perangkat tetap dalam kondisi terbaik.'
+    , href: "#"
   },
-  {
-    num: '04',
-    title: 'Membangun Lab Komputer',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod commodi quam id. Quaerat eveniet dolore veniam vitae modi. Iure, consequuntur!', 
-    href: "https://github.com/irfan19977/School-app"
-  },
-  {
-    num: '05',
-    title: 'Java Service Computer',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod commodi quam id. Quaerat eveniet dolore veniam vitae modi. Iure, consequuntur!'
-    , href: "https://github.com/irfan19977/School-app"
-  },
+
 ];
 
 const Services = () => {
@@ -45,7 +34,7 @@ const Services = () => {
           initial={{ opacity: 0 }}
           animate={{
             opacity: 1,
-            transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
+            transition: { delay: 1, duration: 0.4, ease: "easeIn" },
           }}
           className="grid grid-cols-1 md:grid-cols-2 gap-[60px]">
           {services.map((services, index) => {
